@@ -4,7 +4,7 @@ A sleek iOS app built with SwiftUI to help you monitor your caffeine and calorie
 Language: Swift
 Framework: SwiftUI
 
-## Features
+### Features
 Intuitive Interface:  Designed with SwiftUI for a smooth user experience.
 Accurate Calculations: Leverages extensive coffee beverage data for precise caffeine and calorie tracking.
 
