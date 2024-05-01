@@ -1,8 +1,8 @@
 # CoolBeans
 
 A sleek iOS app built with SwiftUI to help you monitor your caffeine and calorie intake from coffee.
-Language: Swift
-Framework: SwiftUI
+Line 1  Language: Swift
+Line 2  Framework: SwiftUI
 
 ### Features
 1. Intuitive Interface:  Designed with SwiftUI for a smooth user experience.
