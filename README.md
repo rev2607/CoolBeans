@@ -25,7 +25,7 @@ Perfect for health-conscious individuals, baristas, and anyone who wants to make
 
 ## 🖼️ Demo
 
-- [CoolBeans/Assets.xcassets/AppIcon.appiconset/appstore1024.png](https://github.com/rev2607/CoolBeans/assets/117919399/e51bff3d-8fee-4e6d-921a-de2fd78a77c2]
+- [CoolBeans/Assets.xcassets/AppIcon.appiconset/appstore1024.png](https://github.com/rev2607/CoolBeans/assets/117919399/e51bff3d-8fee-4e6d-921a-de2fd78a77c2)
 
 ## ⚙️ Tech Stack
 - **Languages**: Swift 5.0+
