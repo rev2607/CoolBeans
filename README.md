@@ -134,7 +134,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Revanth Guthula**
 - 📧 Email: [revanth2607@gmail.com](mailto:revanth2607@gmail.com)
-- 🔗 LinkedIn: [revanth2607](https://linkedin.com/in/revanth2607)
+- 🔗 LinkedIn: [revanth2607](https://linkedin.com/in/rev2607)
 - 🌐 Portfolio: [www.revanth.cloud](https://www.revanth.cloud)
 
 ---
