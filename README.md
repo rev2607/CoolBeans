@@ -14,14 +14,11 @@
 Perfect for health-conscious individuals, baristas, and anyone who wants to make informed decisions about their daily beverage consumption.
 
 ## Features
-- ✅ **Comprehensive Drink Menu** - Coffee and tea varieties with detailed nutritional info
-- ✅ **Caffeine & Calorie Tracking** - Real-time monitoring of daily intake
-- ✅ **Customizable Drinks** - Milk, syrup, and size options
-- ✅ **Drink History** - Track and manage your beverage consumption
-- ✅ **Smart Analytics** - Visual summaries of caffeine and calorie intake
-- ✅ **Modern SwiftUI Interface** - Beautiful, intuitive user experience
-- ✅ **Offline Functionality** - Works without internet connection
-- ✅ **Health Integration** - Designed with wellness in mind
+- **Comprehensive Drink Menu** - Coffee and tea varieties with detailed nutritional info
+- **Caffeine & Calorie Tracking** - Real-time monitoring of daily intake
+- **Customizable Drinks** - Milk, syrup, and size options
+- **Drink History** - Track and manage your beverage consumption
+- **Offline Functionality** - Works without internet connection
 
 ## Demo
 
