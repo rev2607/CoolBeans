@@ -1,109 +1,98 @@
 # CoolBeans
-> A sophisticated iOS app for coffee and tea enthusiasts to track their caffeine intake, manage drink preferences, and maintain a personalized beverage history.
+> A learning-focused iOS app built with SwiftUI to explore caffeine and calorie tracking for coffee and tea drinks.
 
 ![Tech Stack](https://img.shields.io/badge/Tech-Swift|SwiftUI|iOS-blue)
 
 ## Overview
-**CoolBeans** is a modern iOS application designed to help coffee and tea lovers:
-- **Track daily caffeine consumption** with detailed analytics
-- **Manage drink preferences** with customizable options
-- **Monitor calorie intake** from beverages
-- **Maintain drinking history** for health awareness
-- **Discover new drinks** from an extensive menu
+**CoolBeans** is a personal learning project where I explored building a multi-screen SwiftUI application around a simple, real-world use case: tracking caffeine and calorie intake from beverages.
 
-Perfect for health-conscious individuals, baristas, and anyone who wants to make informed decisions about their daily beverage consumption.
+The goal of this project was not to build a production-ready health app, but to practice:
+- SwiftUI view composition
+- Basic state management
+- Data modeling
+- Navigation and user interaction flows
 
 ## Features
-- **Comprehensive Drink Menu** - Coffee and tea varieties with detailed nutritional info
-- **Caffeine & Calorie Tracking** - Real-time monitoring of daily intake
-- **Customizable Drinks** - Milk, syrup, and size options
-- **Drink History** - Track and manage your beverage consumption
-- **Offline Functionality** - Works without internet connection
+- Browse a predefined menu of coffee and tea drinks
+- View caffeine and calorie information per drink
+- Customize drinks with size and add-ons
+- Log drinks to a simple consumption history
+- View a basic daily summary of intake
+
+> Note: Features are intentionally scoped for learning purposes and do not aim to cover all real-world edge cases.
 
 ## Demo
 
 [![Watch the video](https://github.com/rev2607/CoolBeans/blob/main/Assets.xcassets/AppIcon.appiconset/appstore1024.png)](https://github.com/rev2607/CoolBeans/assets/117919399/e51bff3d-8fee-4e6d-921a-de2fd78a77c2)
 
 ## Tech Stack
-- **Languages**: Swift 5.0+
-- **Frameworks**: SwiftUI, Foundation, Core Data
+- **Language**: Swift
+- **UI Framework**: SwiftUI
+- **Core Frameworks**: Foundation
 - **Tools**: Xcode, iOS Simulator, Git
-- **Platform**: iOS 14.0+
-- **Architecture**: MVVM with ObservableObject pattern
+- **Platform**: iOS
+- **Architecture**: Simple MVVM-style separation using `ObservableObject`
 
 ## Getting Started
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/CoolBeans.git
    cd CoolBeans
    ```
 
-2. **Open in Xcode**
-   - Open `CoolBeans.xcodeproj` in Xcode
-   - Select your target device or simulator
-   - Build and run the project (⌘+R)
+2. Open in Xcode
 
-3. **Requirements**
-   - Xcode 12.0 or later
-   - iOS 14.0+ deployment target
-   - macOS 11.0+ (for development)
+   * Open `CoolBeans.xcodeproj`
+   * Select a simulator or device
+   * Build and run (⌘R)
+
+### Requirements
+
+* Xcode 12 or later
+* iOS 14.0+
 
 ## Project Structure
 
 ```
 CoolBeans/
 ├── CoolBeans/
-│   ├── Assets.xcassets/          # App icons and drink images
-│   ├── ContentView.swift         # Main app interface
-│   ├── Drink.swift              # Drink data model
-│   ├── Menu.swift               # Menu management
-│   ├── MenuView.swift           # Drink selection interface
-│   ├── CustomizeView.swift      # Drink customization
-│   ├── History.swift            # Consumption tracking
-│   ├── Serving.swift            # Serving data model
-│   └── menu.json               # Drink database
-├── CoolBeans.xcodeproj/         # Xcode project file
-└── README.md                    # This file
+│   ├── Assets.xcassets/          # App icons and images
+│   ├── ContentView.swift         # Root view and entry point
+│   ├── Drink.swift               # Core drink data model
+│   ├── Menu.swift                # Static menu data handling
+│   ├── MenuView.swift            # Drink selection UI
+│   ├── CustomizeView.swift       # Drink customization screen
+│   ├── History.swift             # Simple consumption history
+│   ├── Serving.swift             # Serving size model
+│   └── menu.json                 # Sample drink data
+├── CoolBeans.xcodeproj/
+└── README.md
 ```
 
-## Output
+## Technical Focus Areas
 
-The app provides comprehensive tracking and analytics:
+* SwiftUI view hierarchy and layout
+* `@State` and `ObservableObject` for managing UI state
+* Passing data between views
+* Modeling domain data using Swift structs
+* Building navigation flows using SwiftUI
 
-- **Daily Summary**: Total caffeine and calorie intake
-- **Drink History**: Chronological list of consumed beverages
-- **Nutritional Data**: Detailed breakdown per drink
-- **Customization Options**: Milk, syrup, and size preferences
-- **Health Insights**: Patterns in beverage consumption
+## Limitations & Future Improvements
 
-## Use Cases
+This project reflects my early-stage iOS learning and has several known limitations:
 
-- **Health Monitoring**: Track daily caffeine intake for health goals
-- **Diet Management**: Monitor calorie consumption from beverages
-- **Coffee Shop Visits**: Remember favorite drink combinations
-- **Wellness Tracking**: Maintain healthy drinking habits
-- **Social Sharing**: Share drink preferences with friends
-- **Barista Reference**: Professional tool for coffee shops
+* Data persistence is minimal and not designed for long-term storage
+* No user accounts or sync across devices
+* No advanced analytics or visualizations
+* UI and logic are tightly scoped for clarity rather than scale
 
-## Key Features in Detail
+Potential future improvements include better persistence, clearer separation of concerns, and more robust state management for larger feature sets.
 
-### Drink Management
-- Extensive menu with coffee and tea varieties
-- Customizable serving sizes (small, medium, large)
-- Milk and syrup options for personalization
-- Nutritional information for each combination
+## What I Learned
 
-### Analytics Dashboard
-- Real-time caffeine tracking
-- Calorie consumption monitoring
-- Historical data visualization
-- Daily and weekly summaries
+This project helped me understand how SwiftUI's declarative model works in practice and how state changes drive UI updates. Building multiple screens clarified how data flows through an app and where different responsibilities should live.
 
-### User Experience
-- Intuitive SwiftUI interface
-- Smooth animations and transitions
-- Swipe actions for quick management
-- Responsive design for all iOS devices
+I also learned the importance of scoping features realistically and being clear about trade-offs when building learning projects. CoolBeans served as a foundation for strengthening my SwiftUI fundamentals before moving on to more complex iOS applications.
