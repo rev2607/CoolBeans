@@ -79,20 +79,3 @@ CoolBeans/
 * Passing data between views
 * Modeling domain data using Swift structs
 * Building navigation flows using SwiftUI
-
-## Limitations & Future Improvements
-
-This project reflects my early-stage iOS learning and has several known limitations:
-
-* Data persistence is minimal and not designed for long-term storage
-* No user accounts or sync across devices
-* No advanced analytics or visualizations
-* UI and logic are tightly scoped for clarity rather than scale
-
-Potential future improvements include better persistence, clearer separation of concerns, and more robust state management for larger feature sets.
-
-## What I Learned
-
-This project helped me understand how SwiftUI's declarative model works in practice and how state changes drive UI updates. Building multiple screens clarified how data flows through an app and where different responsibilities should live.
-
-I also learned the importance of scoping features realistically and being clear about trade-offs when building learning projects. CoolBeans served as a foundation for strengthening my SwiftUI fundamentals before moving on to more complex iOS applications.
